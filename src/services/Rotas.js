@@ -9,9 +9,9 @@ export default function Rotas(){
         <>
             <Router>
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/work" element={<Work/>}/>
-                    <Route path="/onu" element={<ONU/>}/>
+                    <Route path="/" element={<Home/>} />
+                    <Route path="/work" element={<Work/>} />
+                    <Route path="/onu" element={<ONU/>} />
                 </Routes>
             </Router>    
         </>

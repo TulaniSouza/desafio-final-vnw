@@ -1,16 +1,12 @@
 import React from "react";
+import {GlobalStyle} from './Global/GlobalStyle';
 import Rotas from "./services/Rotas";
-import Home from "./Components/Home";
-import ONU from "./Components/ONU";
-import Work from "./Components/Work";
 
 export default function App(){
   return(
     <>
+      <GlobalStyle />
       <Rotas/>
-      <Home/>
-      <ONU/>
-      <Work/>
     </>
   );
 }

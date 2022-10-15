@@ -1,14 +1,3 @@
-import styled, {createGlobalStyle} from "styled-components";
+import styled from "styled-components";
 
-export const GlobalStyle = createGlobalStyle`
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    list-style: none;
-}
-`;
-
-export const Container= styled.section`
-
-`;
+export const Container = styled.section``;
