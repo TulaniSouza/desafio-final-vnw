@@ -9,4 +9,9 @@ export const GlobalStyle = createGlobalStyle`
         list-style: none;
         text-decoration: none;
     }
+
+    :root{
+        --ff-title: 'Ubuntu', sans-serif;
+        --ff-txt: 'Poppins', sans-serif;
+    }
 `;
