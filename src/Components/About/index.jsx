@@ -1,5 +1,6 @@
 import React from 'react';
 import Op from "../../Assets/op3.jpeg";
+import Butterfly from '../../Assets/butterfly.png';
 import * as S from './style'
 
 export default function About() {
@@ -7,7 +8,10 @@ export default function About() {
         <>
          <main>
              <S.Container>
-                <img src={Op} alt="Euzinha" />
+                <div>
+                    <S.MyPhoto src={Op} alt="Euzinha" />
+                    <S.Img src={Butterfly} alt='Butterfly' /> 
+                </div> 
                     <p>
                         Amante de boa música, determinada e 
                         comprometida com as obrigações 

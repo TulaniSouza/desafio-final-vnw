@@ -12,6 +12,13 @@ export const Container = styled.section`
         font-weight: 700;
         color: black;
     }
+
+    @media screen and (max-width:768px){
+        padding: 1rem 0.5rem;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 0.5rem;
+    }
 `;
 
 export const Nav = styled.nav`
@@ -23,7 +30,7 @@ export const Nav = styled.nav`
     gap: clamp(1rem, 1.5vw, 2.5rem);
 
     img{
-        width: 60px;
+        width: 50px;
         aspect-ratio: 1;
     }
 `;
