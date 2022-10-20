@@ -14,8 +14,9 @@ export default function Header() {
                     <S.Nav>
                         <ul>
                             <Link to="/"><li>Home</li></Link>
-                            <Link to="/onu"><li>ONU</li></Link>
                             <Link to="/work"><li>Work</li></Link>
+                            <Link to="/about"><li>About</li></Link>
+                            <Link to="/onu"><li>ONU</li></Link>
                         </ul>
                     </S.Nav>
                 </S.Container>

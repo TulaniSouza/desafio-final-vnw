@@ -1,21 +1,23 @@
 import React from "react";
-import Github from "../../Assets/github.png";
-import Linkedin from "../../Assets/linkedin.png";
+import Port from '../../Assets/portflow.png'
+import Recipes from '../../Assets/recipes.png'
 import * as S from"./style";
 
 export default function Work(){
     return(
         <>
+        <main>
             <S.Container>
-                <main>
-                 <a href="https://github.com/TulaniSouza">
-                    <img src={Github} alt="github"/>
-                </a>
-                 <a href="https://www.linkedin.com/in/tulani-souza-07b0a6103/">
-                    <img src={Linkedin} alt="linkedin"/>
-                </a>
-                </main>
+                 <S.Carrossel>
+                    <a href="https://cosme7.github.io/Portflow/" target='_blank' rel='noreferrer'>
+                        <img src={Port} alt="Portflow" />
+                    </a>
+                    <a href="https://majestic-lolly-055776.netlify.app/" target='_blank' rel='noreferrer'>
+                        <img src={Recipes} alt="Recipes" />
+                    </a>
+                 </S.Carrossel>
             </S.Container>
+        </main>
         </>
     );
 }

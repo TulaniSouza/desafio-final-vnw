@@ -31,20 +31,41 @@ export const Nav = styled.nav`
 
     a{
         text-decoration: none;
+        outline: none;
     }
 
     li{
-        padding: 0.5rem 2rem;
+        padding: 0.1rem 2rem;
         font-size: clamp(1rem, 1.5vw, 2rem);
         font-family: var(--ff-txt);
         font-weight: 500;
         text-transform: uppercase;
+        position: relative;
         color: black;
     }
 
-    a:hover li,
-    a:focus li{
-        outline: 8px solid pink;
+    li::after{
+        content: '';
+        width: 70%;
+        border: 2px solid pink;
+        display: block;
+        position: absolute;
+        left: 15%;
+        bottom: 0.2em;
+        transform-origin: center;
+        transition: transform 0.3s ease-in-out;
+        transform: scaleX(0);
+        outline: none;
+    }
+
+    a:hover,
+    a:focus{
+        outline: 1px solid pink;
+    }
+
+    li:hover::after,
+    li:focus::after{
+        transform: scaleX(1);
     }
 
     @media screen and (max-width:48em){

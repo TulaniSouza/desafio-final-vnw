@@ -1,6 +1,5 @@
 import React from "react";
-import Op from "../../Assets/op2.jpg";
-
+import Op from "../../Assets/op1.jpeg";
 import { Link } from "react-router-dom";
 import * as S from "./style";
 
