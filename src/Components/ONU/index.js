@@ -1,16 +1,12 @@
 import React from "react";
-import Saúde from '../../Assets/saude.png'
-import Water from '../../Assets/água.png'
-import Transporte from '../../Assets/transp.png'
-import Energia from '../../Assets/energia.png'
-import Segurança from '../../Assets/segu.png'
+import Card from '../Modal/index'
 import * as S from"./style";
 
 export default function ONU(){
     return(
         <>
         <main>
-            <section>
+            <S.Container>
                 <h2>Os Objetivos de Desenvolvimento Sustentável em Bangu</h2>
                 <p>São um apelo Estadual para 
                     diminuir a pobreza, proteger
@@ -21,13 +17,9 @@ export default function ONU(){
                       possam usufruir de plena 
                       qualidade de vida.</p>
                 <S.Wrapper>
-                    <img src={Saúde} alt="" />
-                    <img src={Energia} alt="" />
-                    <img src={Transporte} alt="" />
-                    <img src={Segurança} alt="" />
-                    <img src={Water} alt="" />
+                    <Card /> 
                 </S.Wrapper>      
-            </section>
+            </S.Container>
         </main>     
         </>
     );
