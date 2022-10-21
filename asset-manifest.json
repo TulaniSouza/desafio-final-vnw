@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/desafio-final-vnw/static/css/main.8c0801f5.css",
-    "main.js": "/desafio-final-vnw/static/js/main.cfb362fe.js",
+    "main.js": "/desafio-final-vnw/static/js/main.3a1e04d6.js",
     "static/media/portflow.png": "/desafio-final-vnw/static/media/portflow.6b25fdfbd87f3d113548.png",
     "static/media/tela.png": "/desafio-final-vnw/static/media/tela.e9137ba0011b8c67da8b.png",
     "static/media/recipes.png": "/desafio-final-vnw/static/media/recipes.206473702ed8a9c3a1fc.png",
@@ -23,10 +23,10 @@
     "static/media/slick.woff": "/desafio-final-vnw/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/desafio-final-vnw/index.html",
     "main.8c0801f5.css.map": "/desafio-final-vnw/static/css/main.8c0801f5.css.map",
-    "main.cfb362fe.js.map": "/desafio-final-vnw/static/js/main.cfb362fe.js.map"
+    "main.3a1e04d6.js.map": "/desafio-final-vnw/static/js/main.3a1e04d6.js.map"
   },
   "entrypoints": [
     "static/css/main.8c0801f5.css",
-    "static/js/main.cfb362fe.js"
+    "static/js/main.3a1e04d6.js"
   ]
 }
