@@ -15,13 +15,13 @@ export const Container= styled.section`
 
 export const Animar = keyframes`
     0%{
-        opacity: 0;
         background: linear-gradient(50deg , #E70FAA, #00C0FD);
         background-clip: text;
         -webkit-background-clip: text;
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent; 
         -moz-text-fill-color: transparent;
+        opacity: 0;
     }100%{
         background: linear-gradient(50deg , #00C0FD, #E70FAA);
         background-clip: text;

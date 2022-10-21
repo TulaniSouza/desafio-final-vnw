@@ -17,7 +17,8 @@ export const Container = styled.section`
         
     p{
         max-width: 45ch;
-        font-size: clamp(1.4rem, 3vw, 3.2rem);
+        font-size: clamp(1.2rem, 2.2vw, 2.5rem);
+        font-family: var(--ff-txt);
         font-weight: 600;
         color: black;
     }
@@ -31,10 +32,6 @@ export const Container = styled.section`
         flex-direction: column;
         text-align: center;
         background-size: contain, 100% 20%;
-
-        p{
-            color: black;
-        }
     }
 `;
 

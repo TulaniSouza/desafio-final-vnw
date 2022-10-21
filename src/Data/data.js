@@ -9,6 +9,8 @@ import Suja from '../Assets/águaModal.jpg'
 import Energy from '../Assets/energia.png'
 import Energia from '../Assets/energiaModal.jpg'
 
+// 
+
 const data = [
     {
         id: 1,
