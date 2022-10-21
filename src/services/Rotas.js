@@ -13,10 +13,10 @@ export default function Rotas(){
             <Router>
                 <Header />
                 <Routes>
-                    <Route path="/" element={<Home/>} />
-                    <Route path="/work" element={<Work/>} />
-                    <Route path="/about" element={<About/>} />
-                    <Route path="/onu" element={<ONU/>} />
+                    <Route path="/desafio-final-vnw/" element={<Home/>} />
+                    <Route path="/desafio-final-vnw/work" element={<Work/>} />
+                    <Route path="/desafio-final-vnw/about" element={<About/>} />
+                    <Route path="/desafio-final-vnw/onu" element={<ONU/>} />
                 </Routes>
                 <Footer />
             </Router>    
