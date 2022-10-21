@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/desafio-final-vnw/static/css/main.8c0801f5.css",
+    "main.js": "/desafio-final-vnw/static/js/main.cfb362fe.js",
+    "static/media/portflow.png": "/desafio-final-vnw/static/media/portflow.6b25fdfbd87f3d113548.png",
+    "static/media/tela.png": "/desafio-final-vnw/static/media/tela.e9137ba0011b8c67da8b.png",
+    "static/media/recipes.png": "/desafio-final-vnw/static/media/recipes.206473702ed8a9c3a1fc.png",
+    "static/media/energiaModal.jpg": "/desafio-final-vnw/static/media/energiaModal.fb972a664457c3c04514.jpg",
+    "static/media/transpModal.jpg": "/desafio-final-vnw/static/media/transpModal.80766a7327b38bb532d2.jpg",
+    "static/media/background03.jpg": "/desafio-final-vnw/static/media/background03.ebec4f3091a320dbde9d.jpg",
+    "static/media/butterfly.png": "/desafio-final-vnw/static/media/butterfly.a423ba0eaa11c6d72391.png",
+    "static/media/águaModal.jpg": "/desafio-final-vnw/static/media/águaModal.225af29c82cdf51f515b.jpg",
+    "static/media/whatsapp.png": "/desafio-final-vnw/static/media/whatsapp.84cb23dcf0a29a44da7a.png",
+    "static/media/op3.jpeg": "/desafio-final-vnw/static/media/op3.1fe595283c832c2d8bbe.jpeg",
+    "static/media/background04.jpg": "/desafio-final-vnw/static/media/background04.803656ef0f51185accd6.jpg",
+    "static/media/op1.jpeg": "/desafio-final-vnw/static/media/op1.1830d0b8b875765d71a7.jpeg",
+    "static/media/saudeModal.jpg": "/desafio-final-vnw/static/media/saudeModal.19a7c93f0870d350a590.jpg",
+    "static/media/logo.png": "/desafio-final-vnw/static/media/logo.7cbd727fa53ad034ac03.png",
+    "static/media/eduModal.webp": "/desafio-final-vnw/static/media/eduModal.a14d7077b573549f5798.webp",
+    "static/media/slick.svg": "/desafio-final-vnw/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/desafio-final-vnw/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/desafio-final-vnw/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/desafio-final-vnw/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/desafio-final-vnw/index.html",
+    "main.8c0801f5.css.map": "/desafio-final-vnw/static/css/main.8c0801f5.css.map",
+    "main.cfb362fe.js.map": "/desafio-final-vnw/static/js/main.cfb362fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c0801f5.css",
+    "static/js/main.cfb362fe.js"
+  ]
+}
